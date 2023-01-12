@@ -1,0 +1,20 @@
+#canvas {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+}
+
+#canvas2 {
+  display: none;
+}
+
+input {
+  position:absolute;
+  width:100px;
+  height:25px;
+}
+
+body {
+  width: 100%;
+}

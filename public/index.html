@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Beanjump</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body onload="onLoad();">
+    <canvas id="canvas" width="1350" height="650" tabindex="1"></canvas>
+    <canvas id="canvas2" width="1350" height="650" tabindex="1"></canvas>
+
+    <script src="/socket.io/socket.io.js" crossorigin="anonymous"></script>
+    <script src="script.js" crossorigin="anonymous"></script>
+    <script src="game_code.js" crossorigin="anonymous"></script>
+    <script src="handle_inputs.js" crossorigin="anonymous"></script>
+    <script src="game_renderer.js" crossorigin="anonymous"></script>
+    <script src="utility.js" crossorigin="anonymous"></script>
+    <script src="screens.js" crossorigin="anonymous"></script>
+    <script src="accounts.js" crossorigin="anonymous"></script>
+    <script src="hash_function.js" crossorigin="anonymous"></script>
+    <script src="achievements.js" crossorigin="anonymous"></script>
+
+    <input type="hidden" style="right:52%;top:227px;" placeholder="Username" id="signupUsername"></input>
+    <input type="hidden" style="left:52%;top:227px;" placeholder="Password" id="signupPassword"></input>
+    <input type="hidden" style="right:52%;top:323px;" placeholder="Username" id="loginUsername"></input>
+    <input type="hidden" style="left:52%;top:323px;" placeholder="Password" id="loginPassword"></input>
+
+    <img hidden id="shield" src="media/skins/default/shield.png">
+    <img hidden id="arrow" src="media/skins/default/arrow.png">
+    <img hidden id="fireball" src="media/skins/default/fireball.png">
+
+  </body>
+</html>
